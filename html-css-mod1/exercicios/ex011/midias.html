@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Caítulo 11</title>
+    <style>
+        body{
+            background-color: rgb(166, 80, 247);
+        }
+    </style>
+</head>
+<body>
+   <H1>Mídias</H1>
+   <h2>Imagem</h2>
+    <picture>
+        <source media="(max-width: 750px)" srcset="pequena.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="media.jpg" type="image/jpg">
+        <img src="grande.jpg" alt="imagem">
+    </picture>
+
+    <h2>Audio</h2>
+    <audio src="midia/risadas-com-aplausos.mp3" controls></audio>
+
+    <audio preload="metadata" controls>
+        <source src="midia/Tribal War Council - Doug Maxwell_Media Right Productions.mp3" type="audio/mpeg">
+    <p>Se você não conseguiu ouvir os audios,<a href="midia/suspense-curto.mp3">clique aqui</a> para ouvir.</p></audio>
+
+    <h2>Vídeos</h2>
+        <video width="600" controls>
+            <source src="midia/videos/video.mp4" type="video/mp4">
+            <source src="midia/videos/video.m4v" type="video/m4v">
+            <source src="midia/videos/video.webm" type="video/webm">
+            <p>Seu navegador não tem compatibilidade</p>
+        </video>
+        <video width="600" poster="midia/thorgordo-1.jpg" controls>
+            <source src="midia/xmen/loira.mp4" type="video/mp4">
+        </video>
+        <video src="midia/xmen/miss raquel corretora.mp4" width="600" poster="media.jpg" controls></video>
+</body>
+</html>

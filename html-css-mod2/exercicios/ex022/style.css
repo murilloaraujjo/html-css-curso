@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'android';
+    src: url(android/Android.ttf);
+}
+
+:root{
+    --cor1: #374C9E;
+    --cor2: #5271EB;
+    --cor3: #CED5F5;
+    --fonte1: Arial;
+    --fonte2: 'android', sans-serif;
+
+}
+
+body{
+    font-family: var(--fonte1);
+    background-color: var(--cor3)
+}
+
+h1{
+    font-family: var(--fonte2);
+    color: var(--cor1);
+    text-shadow: 2px 2px 1px black;
+}
+
+p{
+    line-height: 1.8em;
+}
+
+ul{
+    list-style-type: '\2714\0020';
+    columns: 2;
+    list-style-position: inside;
+}
+
+.video{
+    background-color: rgba(199, 0, 0, 0.945);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}

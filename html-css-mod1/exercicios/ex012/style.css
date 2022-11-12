@@ -1,0 +1,13 @@
+/*css aqui eeeeeeee*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(245, 245, 245);
+    background-image: url(bh4.jpg)
+}
+h1{
+    color: red;
+    background-color: black;
+}
+h2{
+    text-align: center;
+}

@@ -1,0 +1,38 @@
+body{
+    background-color: #B90DFF;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    background-color: #DE0BA6;
+}
+h2{
+    color: #F40600;
+}
+h1#principal{
+    text-align: center;
+    color: black;
+/*
+    em HTML id = # em CSS
+    em HTML Class = . em CSS
+    ID só pode UM por documento!
+    CLASS pode ter vários
+    tag span para expandir classe
+*/    
+}
+.basico{
+    color: #f4bb00;
+    font-weight: bold;
+}
+.intermediario{
+    color: #6ef400;
+    font-weight: bolder;
+}
+.avançado{
+    color: #0039f4;
+    font-weight: bolder;
+}
+.destaque{
+    background-color: yellowgreen;
+    font-weight: bolder;
+}
